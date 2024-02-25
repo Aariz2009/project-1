@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="text-align: center;">
+	<h1 style="font-size: 48px; color: #117A65;">Form</h1>
+	<form id="form1" style="text-align: center;" onsubmit="return validate()">
+		<br>
+		<input id="name" type="text" name="fname" class="inputs" placeholder="Full Name">
+		<br>
+		<br>
+		<input id="Email" type="email" name="email" class="inputs" placeholder="Email">
+		<br>
+		<br>
+		<input id="pass" type="password" name="password" class="inputs" placeholder="Password">
+		<br>
+		<br>
+<input id="cpass" type="password" name="cpassword" class="inputs" placeholder="Confirm Password">
+		<br>
+		<br>
+		<input id="contact" type="text" name="cnumber" class="inputs" placeholder="Contact Number">
+		<br>
+		<br>
+		<br>
+		<br>
+		<button type="submit" id="button" onclick="validate()">Submit</button>
+		<br>
+		<br>
+	</form>
+	<br>
+	<h3 id="show"></h3>
+	<br><br><br><br>
+	<script type="text/javascript" src="formvalidation.js"></script>
+</body>
+</html>
